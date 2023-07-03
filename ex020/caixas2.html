@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        body{
+            font: normal 20px Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: gray;
+        }
+        header{
+            background-color: #fff;
+            padding: 1px 0px 0px 0px;
+        }
+        header > h1{
+            margin-left: 30px;
+            color: #661010;
+            padding: 0px 20px;
+            font: normal bold 50px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+            text-shadow: 2px 2px 3px #460b0ba1;
+            text-decoration: 2px underline;
+        }
+        nav{
+            box-shadow: inset 3px -3px 10px 1px rgba(0, 0, 0, 0.384);
+            text-align: center;
+            background-color: rgb(102, 94, 94);
+            padding: 5px;
+        }
+        nav > a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-left: 60px;
+        }
+        nav > a:hover{
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+        #assuntos{
+            margin-top: 30px;
+            text-align: center;
+        }
+        article{
+            background-color: #fff;
+            text-align: justify;
+            padding: 10px 40px;
+            margin: 30px 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.425);
+            border: 3px solid rgb(0, 0, 0);
+        }
+        #noticias > article > h2{
+            color: #cc2121;
+            text-align: left;
+        }
+        p{
+            text-indent: 30px;
+            margin: 0px;
+        }
+        aside{
+            background-color: lightgray;
+            padding: 6px;
+            width: 90px;
+            border: 3px solid;
+            border-radius: 10px;
+            margin:30px auto 0px auto ;
+        }
+        footer > p{
+            font:normal bolder 15px arial, sans-serif;
+            color: #fff;
+            background-color: #000000;
+            text-align: center;
+            margin: 30px 0px 10px 0px;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><span id="a1">Brasil</span> &middot; <span id="a2">Esportes
+            </span> &middot; <span id="a3">Política
+            </span></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat hic labore incidunt velit fugit vel consequatur provident dicta optio quam! Quisquam eligendi magni vitae vel explicabo cum ut, est impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo impedit ex omnis tempora magnam, distinctio autem. Ipsum ipsa officiis, voluptatibus atque iure, accusamus exercitationem at nostrum, perferendis deleniti inventore dignissimos.
+                </p>
+                <aside>por: Mim</aside>
+            </article>
+            <article>
+                <h2>Noticias sobre o Esporte</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat hic labore incidunt velit fugit vel consequatur provident dicta optio quam! Quisquam eligendi magni vitae vel explicabo cum ut, est impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo impedit ex omnis tempora magnam, distinctio autem. Ipsum ipsa officiis, voluptatibus atque iure, accusamus exercitationem at nostrum, perferendis deleniti inventore dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, praesentium facere. Facilis quaerat, facere porro inventore eius voluptatem officia id, error non ducimus distinctio iusto aut minus, vitae totam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eum rerum dolorum explicabo vel, non illo placeat sapiente tempora quaerat omnis ipsa ipsam eos error repudiandae corrupti exercitationem? Quos, dolorum?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odit praesentium perspiciatis explicabo! Deleniti explicabo aliquid sapiente minima maiores eveniet asperiores? Voluptas labore, harum ducimus doloribus distinctio suscipit fuga laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nulla aut harum voluptatum non exercitationem incidunt voluptate, modi necessitatibus, ut numquam qui deleniti. Optio voluptas natus quae, minima veniam aut?</p>
+                <aside>por: Mim</aside>
+            </article>
+            <article>
+                <h2>Noticias sobre a Política</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat hic labore incidunt velit fugit vel consequatur provident dicta optio quam! Quisquam eligendi magni vitae vel explicabo cum ut, est impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo impedit ex omnis tempora magnam, distinctio autem. Ipsum ipsa officiis, voluptatibus atque iure, accusamus exercitationem at nostrum, perferendis deleniti inventore dignissimos.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ab numquam, facere similique maxime, sint, quo tempore alias doloremque pariatur rerum obcaecati labore ducimus? Aliquid, hic recusandae? Voluptatibus, dicta quae.</p>
+                <aside>
+                    por: Mim
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Vinícius Gastaldi de Oliveira</p>
+    </footer>
+</body>
+</html>

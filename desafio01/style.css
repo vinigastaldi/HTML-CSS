@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+:root{
+    --cor0:#3AC200;
+    --cor1:#237500;
+    --cor2:#103600;
+
+}
+
+body{
+    background-image: linear-gradient(0deg, var(--cor0), var(--cor1) );
+    background-attachment: fixed;
+    font: normal 20px arial, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(180deg, var(--cor1), var(--cor2), var(--cor2));
+    padding: 0px;
+}
+
+header picture img{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+nav{
+    padding: 5px 0px;
+    text-align: center;
+}
+
+nav > a{
+    padding: 6px;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    transition-duration: 0.1s;
+    color: var(--cor2);
+    background-color: lightgreen;
+    border-bottom: solid 4px lightgreen;
+    font-size: 1.3em;
+}
+
+article{
+    min-width: 320px;
+    max-width: 750px;
+    background-color: #fff;
+    margin: 0px auto 30px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    padding: 30px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+h2, p{
+    margin: 0px;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+h2{
+    text-align: center;
+    font: normal 900 2.5em Diphylleia, cursive;
+    margin-bottom: 30px;
+    color: var(--cor2);
+}
+
+#trofeus img{
+    width: 100%;
+}
+
+#libertadores20{
+    min-width: 320px;
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+#libertadores20 img{
+    width: 100%;
+}
+
+#video{
+    margin: 0px -30px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+#video iframe{
+    position: absolute;
+    top: 0%;
+    left: 2.5%;
+    width: 95%;
+    height: 100%;
+}
+
+aside{
+    margin: 100px 15px 15px 15px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: lightgreen;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+    border: solid 3px var(--cor2);
+}
+
+aside h3{
+    background-color: var(--cor2);
+    color: #fff;
+    text-indent: 10px;
+    text-align: left;
+    margin: -15px -15px 0px -15px;
+    border-radius: 10px 10px 0px 0px;
+    font: normal 1.2em 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+aside ul{
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-size: 0.8em;
+    line-height: 1em;
+}

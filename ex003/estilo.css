@@ -1,0 +1,30 @@
+body{
+    background: rgb(255, 255, 110);
+    font: normal 13pt arial;
+}
+h1{
+    color: red;
+}
+
+#titulo{
+    position: relative;
+    text-align: center;
+}
+#receite{
+    height: 500px;
+}
+#receita{
+    margin: auto;
+    text-align: center;
+    column-count: 2;
+    column-gap: 3rem;
+    column-rule: 5px dotted black;
+    width: 600px;
+}
+
+footer{
+ text-align: center;
+}
+/*column-count eh o nmr de colunas
+  column-gap eh a distencia das colunas
+  column-rule eh a divisao das colunas*/

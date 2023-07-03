@@ -1,0 +1,42 @@
+body{
+    font: normal 20px arial, sans-serif;
+    background-color: #9194f5;
+    text-align: justify;
+    padding: 50px;
+}
+h2, h3{
+    padding-left: 10px;
+}
+h1{
+    text-indent: 0px;
+    color: white;
+    background-color: #141536;
+    text-align: center;
+    width: 555px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font: normal 900 50px 'times new roman', times serif;
+}
+h2{
+    background-color: #2d2f759f;
+    border-radius: 5px;
+}
+h3{
+    background-color: #4549b59f;
+    border-radius: 5px;
+}
+p{
+    padding-left: 10px;
+    text-indent: 30px;
+}
+
+.basico{
+    color: rgb(51, 112, 51)
+}
+.medio{
+    color: rgb(111, 112, 51)
+}
+.avancado{
+    color: rgb(112, 51, 51)
+}

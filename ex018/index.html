@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div{
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+        div:hover{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        Passe o mouse aqui
+        <p>Olá!!</p>
+    </div>
+    <div id="d2">
+        Passe o mouse aqui
+        <p>Olá!!</p>
+    </div>
+    <div id="d3">
+        Passe o mouse aqui
+        <p>Olá!!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    background: lightblue;
+    text-align: justify;
+    font: normal 20pt arial;
+    padding: 20px;
+}
+h1{
+    background-color:blue;
+}
+h2{
+    background-color: lightsalmon;
+}
