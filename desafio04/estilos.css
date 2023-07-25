@@ -4,6 +4,10 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 html, body{
     height: 100vh;
     width: 100vw;
@@ -19,7 +23,7 @@ body{
 }
 
 #telefone{
-    background: url(imagens/frame-iphone.png) center center no-repeat;
+    background: url(imagens/frame-iphone.png) no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -49,7 +53,7 @@ body{
 
 #redes-sociais img:hover{
     border: 3px solid white;
-    transform: translate(-5px, -5px);
+    transform: translate(-2px, -2px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.733);
     transition: transform 0.2s;
 }
