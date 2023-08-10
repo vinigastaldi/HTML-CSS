@@ -13,13 +13,23 @@
         <picture>
             <img src="img/img-palmeiras.png" alt="Escudo do Palmeiras" width="300px">
         </picture>
-        <div id="mobile-menu">
+        
+        <button onclick="menuShow()" id="icon_menu_mobile">
             <div id="line1"></div>
             <div id="line2"></div>
             <div id="line3"></div>
+        </button>
+    
+        <div class="menu_mobile">
+            <ul class="links_menu">
+                <li><a href="#historia">História</a></li>
+                <li><a href="#trofeus">Troféus</a></li>
+                <li><a href="#libertadores20">Libertadores 2020</a></li>
+                <li><a href="#fonte">Fonte</a></li>
+            </ul>
         </div>
-        <nav> 
-            <ul>
+        <nav id="menu_padrao"> 
+            <ul class="links_menu">
                 <li><a href="#historia">História</a></li>
                 <li><a href="#trofeus">Troféus</a></li>
                 <li><a href="#libertadores20">Libertadores 2020</a></li>
@@ -72,5 +82,6 @@
     <footer>
         <p>Vinícius Gastaldi de Oliveira</p>
     </footer>
+    <script src="scrip.js"></script>
 </body>
 </html>
