@@ -64,39 +64,39 @@ header picture img{
 
 #icon_menu_mobile{
     display: none;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    position: relative;
-    left: 46vw;
-    padding-bottom: 50px;
-    background-color: transparent;
-    border: none;
 }
 
 .menu_mobile{
     display: none;
 }
 
-.menu_mobile ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.menu_mobile ul li{
-    display: block;
-    padding: 1.2rem 0;
-}
-
 @media screen and (max-width: 800px){
     #menu_padrao{
         display: none;
     }
-
+ 
     #icon_menu_mobile{
         display: block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        position: relative;
+        left: 46vw;
+        padding-bottom: 50px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu_mobile ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu_mobile ul li{
+        display: block;
+        padding: 1.2rem 0;
     }
 
     .open{
