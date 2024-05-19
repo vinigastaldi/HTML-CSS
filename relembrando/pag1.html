@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,17 +79,25 @@
 <body>
 
     <div class="texto">
-        <p>Quer jogar?</p>
+        <p>Você está bem?</p>
     </div>
     <div class="opcao">
-        <a href="https://store.epicgames.com/pt-BR/p/fortnite" target="_blank" id="y">sim</a>
-        <a id="n" onclick="esconderN()">não</a>
+        <a href="pag3.html" target="_parent" id="y">sim</a>
+        <a id="n" onclick="funN()">não</a>
     </div>
+
     <script>
-        function esconderN() {
-            var botao=document.getElementById("n");
-            alert('Ops, parece que ocorreu um erro. Você terá que escolher a outra opção!')
-            botao.style.display= "none"
+        var contadorCliques = 0;
+
+        function funN() {
+            contadorCliques++;
+            
+            if (contadorCliques < 3) {
+                alert('Ops, parece que ocorreu um erro. Você terá que escolher a outra opção!')
+            } else if (contadorCliques === 3) {
+
+                window.location.href = "pag2.html";
+            }
         }
     </script>
 
