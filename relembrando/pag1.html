@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para vc 😊</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+
+            font: normal 800 4em arial;
+            text-transform: uppercase;
+        }
+
+        @media screen and (max-width: 530px){
+            body{
+                font-size: 2em;
+            }
+        }
+
+        .texto{
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+        }
+        .texto p{
+            
+            background: linear-gradient(45deg, yellow, green, blue, purple, pink, red, orange, yellow, green, blue, purple, pink, orange);
+            background-size: 500%;
+            animation: efeito 5s linear infinite alternate;
+           
+            background-clip: text;          
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes efeito {
+            0%{
+                background-position-x: 0%;
+            }
+            100%{
+                background-position: 100%;
+            }
+        }
+
+    .opcao{
+        text-align: center;
+    }
+
+    .opcao a{
+        color: white;
+        padding: 50px;
+        text-decoration: none;
+        padding: 0px;
+        margin: 40px;
+
+        -webkit-transition: .6s;
+    }
+    .opcao a#y:hover{
+        color: green;
+        font-size: 1.4em;
+        transition: .6s;
+    }
+    .opcao a#n:hover{
+        color: red;
+        font-size: 1.4em;
+        transition: .6s;
+        cursor: pointer;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="texto">
+        <p>Quer jogar?</p>
+    </div>
+    <div class="opcao">
+        <a href="https://store.epicgames.com/pt-BR/p/fortnite" target="_blank" id="y">sim</a>
+        <a id="n" onclick="esconderN()">não</a>
+    </div>
+    <script>
+        function esconderN() {
+            var botao=document.getElementById("n");
+            alert('Ops, parece que ocorreu um erro. Você terá que escolher a outra opção!')
+            botao.style.display= "none"
+        }
+    </script>
+
+</body>
+</html>
